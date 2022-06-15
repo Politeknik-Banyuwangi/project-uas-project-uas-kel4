@@ -44,3 +44,20 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+class Bills extends StatefulWidget {
+  @override
+  _Bills createState() => _Bills();
+}
+
+class _Bills extends State<Bills> {
+  int _selectedNavbar = 0;
+  var _pages = <Widget>[
+    Icon(Icons.book, size: 30, color: Colors.black),
+    Icon(Icons.book, size: 30, color: Colors.black),
+    Icon(Icons.book, size: 30, color: Colors.black),
+    Icon(Icons.book, size: 30, color: Colors.black),
+    Icon(Icons.book, size: 30, color: Colors.black),
+    Icon(Icons.book, size: 30, color: Colors.black),
+  ];
+}
