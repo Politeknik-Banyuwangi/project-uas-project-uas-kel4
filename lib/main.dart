@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgrounColor: Color(0xffFFFFFF),
+        backgroundColor: Color(0xffFFFFFF),
         appBar :AppBar(
           title: Text("Profile"),
-          backgrounColor: Color(0xffFFFFFF),
+          backgroundColor: Color(0xffFFFFFF),
           elevation: 0,
           actions: <Widget>[
             Padding(padding: const EdgeInsets.only(right: 18.0), child: Icon(Icons.verified_user, color: Colors.red)),
@@ -59,6 +59,6 @@ class MyApp extends StatelessWidget {
                ),
              ],
            )),
-            ],
-          ),
+     ],
+   ),
   
