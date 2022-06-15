@@ -7,35 +7,58 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // Application name
-      title: 'Flutter Hello World',
-      // Application theme data, you can set the colors for the application as
-      // you want
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgrounColor: Color(0xffFFFFFF),
+        appBar :AppBar(
+          title: Text("Profile"),
+          backgrounColor: Color(0xffFFFFFF),
+          elevation: 0,
+          actions: <Widget>[
+            Padding(padding: const EdgeInsets.only(right: 18.0), child: Icon(Icons.verified_user, color: Colors.red)),
+          ]
       ),
-      // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
-        ),
-      ),
-    );
-  }
-}
+      //user
+      body: Column(
+        mainAxisAligment: MainAxisAligment.start,
+        crossAxisAligment: CrossAxisAligment.center,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.only(: 6.0),
+                child: CircleAvatar(
+                  radius: 25,
+                  backroundImage: NetworkImage("https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg"),
+                ),
+              ),
+         Padding(
+           padding: const EdgeInsets.only(left: 30.0),
+           child: Column(
+             crossAxisAligment: CrossAxisAligment.start,
+             children: <Widget>[
+               Text("Shella Ananta", style: TextStyle(fontsize: 18, color: Colors.black)),
+               Padding(
+                 padding: const EdgeInsets.only(top: 10.0),
+                 child: Row(
+                   crossAxisAlignment: CrossAxisAlignment.center,
+                   children: <Widget>[
+                     Icon(
+                       Icons.location_on,
+                       color; Colors.white70,
+                       size: 15,
+                     ),
+                     Padding(
+                       padding: const EdgeInsets.only(left: 5.0),
+                       child: Text(
+                         "Banyuwangi, Jawa Timur",
+                         style: TextStyle(color: Colors.black: fontsize: 13, letterSpacing: 3, wordSpacing: 2),
+                       )),
+                   ],
+                 ),
+               ),
+             ],
+           )),
+            ],
+          ),
+  
