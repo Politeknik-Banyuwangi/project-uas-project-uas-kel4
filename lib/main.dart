@@ -10,15 +10,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xffFFFFFF),
-        appBar :AppBar(
-          title: Text("Profile"),
+        appBar: AppBar(
+          title: Text('Profile'),
           backgroundColor: Color(0xffFFFFFF),
           elevation: 0,
           actions: <Widget>[
-            Padding(padding: const EdgeInsets.only(right: 18.0), child: Icon(Icons.verified_user, color: Colors.red)),
+            Padding(padding: const EdgeInsets.only(right: 16.0), child: Icon(Icons.verified_user, color: Colors.red)),
           ],
-      ),
-      //user
+        ),
+        //bagian user
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -32,39 +32,37 @@ class MyApp extends StatelessWidget {
                     backgroundImage: NetworkImage('https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg'),
                   ),
                 ),
-         Padding(
-           padding: const EdgeInsets.only(left: 30.0),
-           child: Column(
-             crossAxisAlignment: CrossAxisAlignment.start,
-             children: <Widget>[
-               Text("Shella Ananta", style: TextStyle(fontsize: 18, color: Colors.black)),
-               Padding(
-                 padding: const EdgeInsets.only(top: 10.0),
-                 child: Row(
-                   crossAxisAlignment: CrossAxisAlignment.center,
-                   children: <Widget>[
-                     Icon(
-                       Icons.location_on,
-                       color; Colors.white70,
-                       size: 15,
-                     ),
-                     Padding(
-                         padding: const EdgeInsets.only(left: 4.0),
-                         child: Text(
-                            'Banyuwangi, Jawa Timur ',
-                           style: TextStyle(color: Colors.black, fontSize: 15, letterSpacing: 3, wordSpacing: 2),
-                          )),
-                        
-                     ],
-                  ),
-                ),
+                Padding(
+                    padding: const EdgeInsets.only(left: 25.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Shella Ananta', style: TextStyle(fontSize: 20, color: Colors.black)),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8.0),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget>[
+                              Icon(
+                                Icons.location_on,
+                                color: Colors.white70,
+                                size: 17,
+                              ),
+                              Padding(
+                                  padding: const EdgeInsets.only(left: 4.0),
+                                  child: Text(
+                                    'Banyuwangi, Jawa Timur ',
+                                    style: TextStyle(color: Colors.black, fontSize: 12, letterSpacing: 3, wordSpacing: 2),
+                                  )),
+                            ],
+                          ),
+                        ),
+                      ],
+                    )),
               ],
-            )),
-
-        ],
-       ),
-       //Biodata
-         Container(
+            ),
+            //bagian autobiography
+            Container(
               padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
               margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
               height: 500,
@@ -95,7 +93,7 @@ class MyApp extends StatelessWidget {
                             Text('NISN         : 311710427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
                           ]),
                         ),
-                         Padding(
+                        Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.date_range),
@@ -109,7 +107,7 @@ class MyApp extends StatelessWidget {
                             Text('E-mail      : Shella17@gmail.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
                           ]),
                         ),
-                         Padding(
+                        Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.contact_phone),
@@ -125,7 +123,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                     )),
-                 ),
+              ),
             )
           ],
         ),
