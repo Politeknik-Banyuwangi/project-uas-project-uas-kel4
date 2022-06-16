@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
           title: Text('Profile'),
           backgroundColor: Color(0xffFFFFFF),
           elevation: 0,
-          actions: <Widget>[
-            Padding(padding: const EdgeInsets.only(right: 16.0), child: Icon(Icons.verified_user, color: Colors.red)),
-          ],
+          actions: <Widget>[],
         ),
-        // user
+        //user
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
