@@ -123,6 +123,7 @@ class _Bills extends State<Bills> {
         selectedItemColor: Colors.black,
         unselectedItemColor: Colors.grey,
         showUnselectedLabels: true,
+        onTap: _changeSelectedNavBar,
       ),
     );
   }
