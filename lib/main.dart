@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
           actions: <Widget>[
             Padding(padding: const EdgeInsets.only(right: 18.0), child: Icon(Icons.verified_user, color: Colors.red)),
-          ]
+          ],
       ),
       //user
       body: Column(
