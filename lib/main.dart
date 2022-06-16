@@ -73,41 +73,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           SizedBox(height: 25),
-
-          //card
-          Container(
-              height: 200,
-              child: PageView(scrollDirection: Axis.horizontal, children: [
-                MyCard(
-                  balance: 2.478,
-                  cardNumber: 123456789,
-                  month: 02,
-                  year: 24,
-                  image: NetworkImage('https://static.vecteezy.com/system/resources/previews/006/329/857/non_2x/3d-money-holding-wallet-dollar-coin-on-isolate-background-online-payment-and-money-saving-concept-3d-holding-wallet-render-for-business-bank-finance-investment-vector.jpg'),
-                ),
-                MyCard(
-                  balance: 8.981,
-                  cardNumber: 189364127,
-                  month: 11,
-                  year: 24,
-                  image: NetworkImage('https://img.freepik.com/free-photo/3d-money-holding-wallet-pink-coin-banknote-isolate-pink-background-online-payment-payment-concept-3d-holding-wallet-render-business-bank-finance-investment-money-saving_412828-544.jpg?w=2000'),
-                ),
-                MyCard(
-                  balance: 4.127,
-                  cardNumber: 995623124,
-                  month: 09,
-                  year: 25,
-                  image: NetworkImage('https://img.freepik.com/free-vector/3d-vector-real-estate-coin-hand-holding-pastel-background-money-saving-loan-house-property-concept-financial-money-investment-stack-coins-tiny-house-bank-blue-background_412828-876.jpg?w=2000'),
-                ),
-              ])),
-          SizedBox(height: 25),
-
-          Container(
-            child: Column(children: [
-              Bills(),
-            ]),
-          ),
-        ],
       )),
     );
   }
