@@ -41,7 +41,40 @@ class _HomePageState extends State<HomePage> {
             label: ('Profil'),
           ),
         ],
+        selectedItemColor: Colors.black,
+        unselectedItemColor: Colors.grey,
+        showUnselectedLabels: true,
       ),
+      backgroundColor: Colors.white,
+      body: SafeArea(
+          child: Column(
+        children: [
+          //appbar
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('E-learning',
+                    style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                    )),
+                Container(
+                  margin: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(4),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(Icons.account_circle, size: 40),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 25),
+        ],
+      )),
     );
   }
 }
@@ -86,7 +119,7 @@ class _Bills extends State<Bills> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 50),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
