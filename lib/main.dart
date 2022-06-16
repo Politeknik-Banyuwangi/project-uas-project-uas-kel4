@@ -1,5 +1,4 @@
 import "package:flutter/material.dart";
-import "package:projectuas/profile/profil.dart";
 
 void main() {
   runApp(const MyApp());
