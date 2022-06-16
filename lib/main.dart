@@ -88,7 +88,7 @@ class MyApp extends StatelessWidget {
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.dialpad),
-                            Text('NISN         : 311710427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                            Text('NISN         : 312810427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
                           ]),
                         ),
                         Padding(
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.contact_phone),
-                            Text('Telepon   : 085783241470', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                            Text('Telepon   : 082783541470', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
                           ]),
                         ),
                         Padding(
