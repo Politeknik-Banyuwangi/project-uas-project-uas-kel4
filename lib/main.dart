@@ -97,7 +97,7 @@ class MyApp extends StatelessWidget {
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.date_range),
-                            Text('TTL          : Banyuwangi 17-10-2000', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16))
+                            Text('TTL          : Banyuwangi,17-10-2000', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16))
                           ]),
                         ),
                         Padding(
