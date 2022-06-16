@@ -23,29 +23,29 @@ class Bills extends StatefulWidget {
 class _Bills extends State<Bills> {
   int _selectedNavbar = 0;
   var _pages = <Widget>[
-    Icon(Icons.work, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_cart, size: 25, color: Colors.blue),
-    Icon(Icons.wifi, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_bag_sharp, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_cart, size: 25, color: Colors.blue),
-    Icon(Icons.work, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_cart, size: 25, color: Colors.blue),
-    Icon(Icons.wifi, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_bag_sharp, size: 25, color: Colors.blue),
-    Icon(Icons.shopping_cart, size: 25, color: Colors.blue),
+    Icon(Icons.book, size: 25, color: Colors.black),
+    Icon(Icons.book, size: 25, color: Colors.black),
+    Icon(Icons.book, size: 25, color: Colors.black),
+    Icon(Icons.book, size: 25, color: Colors.black),
+    Icon(Icons.book, size: 25, color: Colors.black),
+    Icon(Icons.book, size: 25, color: Colors.black),
   ];
 
   var _titleBills = [
-    'Market bills',
-    'Supermarket bills',
-    'Store bills',
-    'Wifi bills',
-    'Supermarket bills',
-    'Market bills',
-    'Supermarket bills',
-    'Store bills',
-    'Wifi bills',
-    'Supermarket bills',
+    'Biologi',
+    'Kimia',
+    'Matematika',
+    'Bahasa Inggris',
+    'Bahasa Indonesia',
+    'Fisika',
+  ];
+  var _subtitleGuru = [
+    'Adi Setya Purwanto',
+    'Nur Shinta Ramadanti',
+    'Eko Saputra',
+    'Vinzen Qiy',
+    'Cintra Puspita',
+    'Azizah Saputri',
   ];
 
   void _changeSelectedNavBar(int index) {
@@ -64,14 +64,9 @@ class _Bills extends State<Bills> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Upcomming bill',
-                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                'Mata Pelajaran',
+                style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
               ),
-              Text('See All',
-                  style: TextStyle(
-                    color: Colors.purple,
-                    fontSize: 20.0,
-                  )),
             ],
           ),
           // Container(
@@ -82,7 +77,7 @@ class _Bills extends State<Bills> {
           Container(
             height: 500,
             child: ListView.builder(
-              itemCount: 10,
+              itemCount: 6,
               itemBuilder: (BuildContext context, int index) {
                 return Container(
                   child: Card(
@@ -93,7 +88,7 @@ class _Bills extends State<Bills> {
                         overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
-                        'Desember 28, 2021',
+                        '${_subtitleGuru[index]}',
                         overflow: TextOverflow.ellipsis,
                       ),
                       leading: Container(
