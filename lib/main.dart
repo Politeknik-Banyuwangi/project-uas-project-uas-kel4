@@ -19,19 +19,19 @@ class MyApp extends StatelessWidget {
           ],
       ),
       //user
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Row(
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.only(: 6.0),
-                child: CircleAvatar(
-                  radius: 25,
-                  backgroundImage: NetworkImage("https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg"),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.only(left: 8.0),
+                  child: CircleAvatar(
+                    radius: 30,
+                    backgroundImage: NetworkImage('https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg'),
+                  ),
                 ),
-              ),
          Padding(
            padding: const EdgeInsets.only(left: 30.0),
            child: Column(
@@ -49,16 +49,15 @@ class MyApp extends StatelessWidget {
                        size: 15,
                      ),
                      Padding(
-                       padding: const EdgeInsets.only(left: 5.0),
-                       child: Text(
-                         "Banyuwangi, Jawa Timur",
-                         style: TextStyle(color: Colors.black: fontsize: 12, letterSpacing: 3, wordSpacing: 2),
-                       )),
-                   ],
-                 ),
-               ),
-             ],
-           )),
-     ],
-   ),
-  
+                                  padding: const EdgeInsets.only(left: 4.0),
+                                  child: Text(
+                                    'Banyuwangi, Jawa Timur ',
+                                    style: TextStyle(color: Colors.black, fontSize: 12, letterSpacing: 3, wordSpacing: 2),
+                                  )),
+                            ],
+                          ),
+                        ),
+                      ],
+                    )),
+              ],
+            ),
