@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
            child: Column(
              crossAxisAlignment: CrossAxisAlignment.start,
              children: <Widget>[
-               Text("Shella Ananta", style: TextStyle(fontsize: 20, color: Colors.black)),
+               Text("Shella Ananta", style: TextStyle(fontsize: 18, color: Colors.black)),
                Padding(
                  padding: const EdgeInsets.only(top: 10.0),
                  child: Row(
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                          padding: const EdgeInsets.only(left: 4.0),
                          child: Text(
                             'Banyuwangi, Jawa Timur ',
-                           style: TextStyle(color: Colors.black, fontSize: 12, letterSpacing: 3, wordSpacing: 2),
+                           style: TextStyle(color: Colors.black, fontSize: 15, letterSpacing: 3, wordSpacing: 2),
                           )),
                         
                      ],
@@ -63,3 +63,73 @@ class MyApp extends StatelessWidget {
 
         ],
        ),
+       //Biodata
+         Container(
+              padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
+              margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
+              height: 500,
+              width: double.infinity,
+              child: Card(
+                child: Container(
+                    color: Colors.purple[200],
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.max,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Padding(
+                          padding: EdgeInsets.only(top: 30, right: 20, left: 70, bottom: 15),
+                          child: Text('Biodata Mahasiswa', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.black)),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.person_pin),
+                            Text('Nama       : Shella Ananta', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                          ]),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.dialpad),
+                            Text('NISN         : 311710427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                          ]),
+                        ),
+                         Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.date_range),
+                            Text('TTL          : Banyuwangi 17-10-2000', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16))
+                          ]),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.contact_mail),
+                            Text('E-mail      : Shella17@gmail.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                          ]),
+                        ),
+                         Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.contact_phone),
+                            Text('Telepon   : 085783241470', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                          ]),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(15.0),
+                          child: Row(children: <Widget>[
+                            Icon(Icons.home),
+                            Text('Alamat    : Banyuwangi', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                          ]),
+                        ),
+                      ],
+                    )),
+                 ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
