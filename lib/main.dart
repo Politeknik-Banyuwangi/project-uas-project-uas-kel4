@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -60,4 +61,74 @@ class _Bills extends State<Bills> {
     Icon(Icons.book, size: 30, color: Colors.black),
     Icon(Icons.book, size: 30, color: Colors.black),
   ];
+  var _titleBills = [
+    'BIOLOGI',
+    'KIMIA',
+    'FISIKA',
+    'MATEMATIKA',
+    'BAHASA INGGRIS',
+    'BAHASA INDONESIA',
+  ];
+  var _subtitleGuru = [
+    'Adi Setya Purwanto',
+    'Nur Shinta Ramadanti',
+    'Eko Saputra',
+    'Vinzen Qiy',
+    'Cintra Puspita',
+    'Azizah Saputri',
+  ];
+  void _changeSelectedNavBar(int index) {
+    setState(() {
+      _selectedNavbar = index;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsert.symmetric(horizontal: 20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainnAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                'Mata Pelajaran',
+                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+          Container(
+            height: 300,
+            child: ListView.builder(
+              itemCount: 6,
+              itemBuilder: (BuildContext context, int index) {
+                return Container(
+                  child: Card(
+                    child: ListTile(
+                      title: Text(
+                        '${_titleBills[index]}',
+                        style: TextStyle(color: Colors.black, fontSize: 16.0),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      subtitle: Text(
+                        '${_subtitleGuru[index]}',
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      leading: Container(
+                        padding: EdgeInsets.all(5),
+                        child: _pages[index],
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
+            color: Colors.white,
+          ),
+        ],
+      ),
+    );
+  }
 }
