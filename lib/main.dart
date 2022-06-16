@@ -86,12 +86,12 @@ class _Bills extends State<Bills> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsert.symmetric(horizontal: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            mainnAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
                 'Mata Pelajaran',
