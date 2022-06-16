@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
          Padding(
            padding: const EdgeInsets.only(left: 30.0),
            child: Column(
-             crossAxisAligment: CrossAxisAligment.start,
+             crossAxisAlignment: CrossAxisAlignment.start,
              children: <Widget>[
                Text("Shella Ananta", style: TextStyle(fontsize: 18, color: Colors.black)),
                Padding(
