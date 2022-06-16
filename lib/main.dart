@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                 padding: const EdgeInsets.only(: 6.0),
                 child: CircleAvatar(
                   radius: 25,
-                  backroundImage: NetworkImage("https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg"),
+                  backgroundImage: NetworkImage("https://i.pinimg.com/originals/0f/bb/ac/0fbbac26dcbd2670d1f9442949edb45e.jpg"),
                 ),
               ),
          Padding(
