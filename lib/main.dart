@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             Padding(padding: const EdgeInsets.only(right: 16.0), child: Icon(Icons.verified_user, color: Colors.red)),
           ],
         ),
-        //bagian user
+        // user
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                     )),
               ],
             ),
-            //bagian autobiography
+            //biodata
             Container(
               padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
               margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
