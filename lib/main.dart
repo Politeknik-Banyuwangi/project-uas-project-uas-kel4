@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       ),
       //user
       body: Column(
-        mainAxisAligment: MainAxisAligment.start,
-        crossAxisAligment: CrossAxisAligment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Row(
             children: <Widget>[
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
            child: Column(
              crossAxisAlignment: CrossAxisAlignment.start,
              children: <Widget>[
-               Text("Shella Ananta", style: TextStyle(fontsize: 18, color: Colors.black)),
+               Text("Shella Ananta", style: TextStyle(fontsize: 20, color: Colors.black)),
                Padding(
                  padding: const EdgeInsets.only(top: 10.0),
                  child: Row(
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                        padding: const EdgeInsets.only(left: 5.0),
                        child: Text(
                          "Banyuwangi, Jawa Timur",
-                         style: TextStyle(color: Colors.black: fontsize: 13, letterSpacing: 3, wordSpacing: 2),
+                         style: TextStyle(color: Colors.black: fontsize: 12, letterSpacing: 3, wordSpacing: 2),
                        )),
                    ],
                  ),
