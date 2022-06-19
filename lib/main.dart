@@ -105,7 +105,7 @@ class _Bills extends State<Bills> {
                 );
               },
             ),
-            color: Colors.white,
+            color: Colors.purple.shade100,
           ),
         ],
       ),
