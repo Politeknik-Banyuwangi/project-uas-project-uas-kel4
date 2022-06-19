@@ -90,11 +90,9 @@ class _Bills extends State<Bills> {
                       title: Text(
                         '${_titleBills[index]}',
                         style: TextStyle(color: Colors.black, fontSize: 24.0),
-                        overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
                         '${_subtitleGuru[index]}',
-                        overflow: TextOverflow.ellipsis,
                       ),
                       leading: Container(
                         padding: EdgeInsets.all(5),
