@@ -94,6 +94,11 @@ class _Bills extends State<Bills> {
                         leading: Container(
                           padding: EdgeInsets.all(5),
                           child: _pages[index],
+                          decoration: BoxDecoration(
+                            border: Border.all(color: Colors.purple.shade100),
+                            borderRadius: BorderRadius.circular(20),
+                            color: Colors.purple.shade100,
+                          ),
                         ),
                       ),
                     ),
