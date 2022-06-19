@@ -33,13 +33,13 @@ class MyApp extends StatelessWidget {
                 Padding(
                     padding: const EdgeInsets.only(left: 25.0),
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         Text('Shella Ananta', style: TextStyle(fontSize: 20, color: Colors.black)),
                         Padding(
                           padding: const EdgeInsets.only(top: 8.0),
                           child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
                               Icon(
                                 Icons.location_on,
