@@ -80,7 +80,6 @@ class _Bills extends State<Bills> {
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
-                    ),
                     child: Card(
                       child: ListTile(
                         title: Text(
