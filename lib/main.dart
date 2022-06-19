@@ -81,6 +81,7 @@ class _Bills extends State<Bills> {
               itemBuilder: (BuildContext context, int index) {
                 return Container(
                   decoration: BoxDecoration(
+                    border: Border.all(color: Colors.purple.shade100),
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.purple.shade100,
                   ),
