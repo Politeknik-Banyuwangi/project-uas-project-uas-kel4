@@ -39,7 +39,6 @@ class MyApp extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.only(top: 8.0),
                           child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
                               Icon(
                                 Icons.location_on,
@@ -88,7 +87,7 @@ class MyApp extends StatelessWidget {
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
                             Icon(Icons.dialpad),
-                            Text('NISN         : 312810427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
+                            Text('NIM        : 312810427', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18))
                           ]),
                         ),
                         Padding(
