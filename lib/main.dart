@@ -105,8 +105,7 @@ class _Bills extends State<Bills> {
                   );
                 },
               ),
-              color: Colors.white,
-              ),
+              color: Colors.white),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -133,4 +132,3 @@ class _Bills extends State<Bills> {
     );
   }
 }
-,
