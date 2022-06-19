@@ -75,38 +75,38 @@ class _Bills extends State<Bills> {
           // )
           //
           Container(
-            height: 500,
-            child: ListView.builder(
-              itemCount: 6,
-              itemBuilder: (BuildContext context, int index) {
-                return Container(
-                  child: Card(
-                    child: ListTile(
-                      title: Text(
-                        '${_titleBills[index]}',
-                        style: TextStyle(color: Colors.black, fontSize: 24.0),
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      subtitle: Text(
-                        '${_subtitleGuru[index]}',
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      leading: Container(
-                        padding: EdgeInsets.all(5),
-                        child: _pages[index],
-                        decoration: BoxDecoration(
-                          border: Border.all(color: Colors.purple.shade100),
-                          borderRadius: BorderRadius.circular(20),
-                          color: Colors.purple.shade100,
+              height: 500,
+              child: ListView.builder(
+                itemCount: 6,
+                itemBuilder: (BuildContext context, int index) {
+                  return Container(
+                    child: Card(
+                      child: ListTile(
+                        title: Text(
+                          '${_titleBills[index]}',
+                          style: TextStyle(color: Colors.black, fontSize: 24.0),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        subtitle: Text(
+                          '${_subtitleGuru[index]}',
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        leading: Container(
+                          padding: EdgeInsets.all(5),
+                          child: _pages[index],
+                          decoration: BoxDecoration(
+                            border: Border.all(color: Colors.purple.shade100),
+                            borderRadius: BorderRadius.circular(20),
+                            color: Colors.purple.shade100,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                );
-              },
-            ),
-            color: Colors.purple.shade100,
-          ),
+                  );
+                },
+              ),
+              color: Colors.white,
+              ),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -133,3 +133,4 @@ class _Bills extends State<Bills> {
     );
   }
 }
+,
