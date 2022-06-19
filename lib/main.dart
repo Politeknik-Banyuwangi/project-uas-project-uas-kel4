@@ -75,11 +75,6 @@ class _Bills extends State<Bills> {
           // )
           //
           Container(
-              decoration: BoxDecoration(
-                border: Border.all(color: Colors.purple.shade100),
-                borderRadius: BorderRadius.circular(20),
-                color: Colors.purple.shade100,
-              ),
               height: 500,
               child: ListView.builder(
                 itemCount: 6,
