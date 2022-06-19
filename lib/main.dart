@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                                 size: 17,
                               ),
                               Padding(
-                                  padding: const EdgeInsets.only(left: 4.0),
+                                  padding: const EdgeInsets.only(left: 8.0),
                                   child: Text(
                                     'Politeknik Negeri Banyuwangi ',
                                     style: TextStyle(color: Colors.black, fontSize: 18),
