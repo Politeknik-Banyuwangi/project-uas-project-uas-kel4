@@ -61,7 +61,7 @@ class _Bills extends State<Bills> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 'Mata Pelajaran',
@@ -80,10 +80,6 @@ class _Bills extends State<Bills> {
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.purple.shade100),
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.purple.shade100,
                     ),
                     child: Card(
                       child: ListTile(
