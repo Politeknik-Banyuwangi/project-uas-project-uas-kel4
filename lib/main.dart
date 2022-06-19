@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                       children: <Widget>[
                         Text('Shella Ananta', style: TextStyle(fontSize: 20, color: Colors.black)),
                         Padding(
-                          padding: const EdgeInsets.only(top: 4.0),
+                          padding: const EdgeInsets.only(top: 8.0),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
