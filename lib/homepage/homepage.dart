@@ -61,7 +61,7 @@ class _Bills extends State<Bills> {
           // )
           //
           Container(
-              height: 550,
+              height: 510,
               child: ListView.builder(
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
