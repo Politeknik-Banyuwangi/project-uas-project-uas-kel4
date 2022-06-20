@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
             Container(
               padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
               margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
-              height: 300,
+              height: 400,
               width: double.infinity,
               child: Card(
                 child: Container(
