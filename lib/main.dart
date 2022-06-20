@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pages/profile.darts'
+import 'package:projectuas/pages/profile.dart'
 
 void main() => runApp(MyApp());
 
