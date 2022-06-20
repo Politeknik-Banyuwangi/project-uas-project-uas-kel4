@@ -9,7 +9,7 @@ class Bills extends StatefulWidget {
 class _Bills extends State<Bills> {
   int _selectedNavbar = 0;
   var _pages = <Widget>[
-    Icon(Icons.book, size: 25, color: Colors.red),
+    Icon(Icons.book, size: 25, color: Colors.black),
     Icon(Icons.book, size: 25, color: Colors.black),
     Icon(Icons.book, size: 25, color: Colors.black),
     Icon(Icons.book, size: 25, color: Colors.black),
