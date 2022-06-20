@@ -57,7 +57,7 @@ class ProfilePages extends StatelessWidget {
           Container(
             padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
             margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
-            height: 500,
+            height: 450,
             width: double.infinity,
             child: Card(
               child: Container(
