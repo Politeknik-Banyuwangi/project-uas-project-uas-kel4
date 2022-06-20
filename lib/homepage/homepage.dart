@@ -69,8 +69,8 @@ class _Bills extends State<Bills> {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15.0),
+                        color: Colors.purple[100],
                       ),
-                      color: Colors.purple[100],
                       child: ListTile(
                         title: Text(
                           '${_titleBills[index]}',
