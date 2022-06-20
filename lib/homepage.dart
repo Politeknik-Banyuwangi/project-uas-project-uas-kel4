@@ -89,6 +89,10 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+          Container(
+            padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
+            child: Text('Mata Kuliah'),
+          ),
           Expanded(
             child: HomeList(),
           ),
