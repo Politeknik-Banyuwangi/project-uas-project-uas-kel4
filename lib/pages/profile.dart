@@ -13,9 +13,7 @@ class ProfilePages extends StatelessWidget {
         actions: <Widget>[],
       ),
       //user
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
+      body: ListView(
         children: <Widget>[
           Row(
             children: <Widget>[
