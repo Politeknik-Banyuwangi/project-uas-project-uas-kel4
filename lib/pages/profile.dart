@@ -15,6 +15,9 @@ class ProfilePages extends StatelessWidget {
       //user
       body: ListView(
         children: <Widget>[
+          SizedBox(
+            height: 30.0,
+          ),
           Row(
             children: <Widget>[
               Padding(
