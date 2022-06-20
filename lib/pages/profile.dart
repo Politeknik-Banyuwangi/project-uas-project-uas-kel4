@@ -1,10 +1,8 @@
-class Profile extends StatelessWidget {
+class ProfilePages extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Color(0xffFFFFFF),
         appBar: AppBar(
           title: Text('Profile', style: TextStyle(color: Colors.black)),
@@ -118,8 +116,6 @@ class Profile extends StatelessWidget {
               ),
             )
           ],
-        ),
-      ),
-    );
+        );
   }
 }
