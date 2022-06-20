@@ -65,9 +65,9 @@ class _Bills extends State<Bills> {
               child: ListView.builder(
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
-                  return Container(
-                    color: Colors.purple,
-                    child: Card(
+                  return Card(
+                    child: Container(
+                      color: Colors.purple,
                       child: ListTile(
                         title: Text(
                           '${_titleBills[index]}',
