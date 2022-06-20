@@ -91,7 +91,13 @@ class _HomePageState extends State<HomePage> {
           ),
           Container(
             padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
-            child: Text('Mata Kuliah'),
+            alignment: Alignment.centerLeft,
+            child: Text(
+              'Mata Kuliah',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
           ),
           Expanded(
             child: HomeList(),
