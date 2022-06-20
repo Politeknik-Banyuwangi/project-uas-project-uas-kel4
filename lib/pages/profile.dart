@@ -7,8 +7,9 @@ class ProfilePages extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Profile', style: TextStyle(color: Colors.black)),
-        backgroundColor: Color(0xffFFFFFF),
+        backgroundColor: Colors.red.shade700,
         elevation: 0,
+        leading: Icon(Icons.undo),
         actions: <Widget>[],
       ),
       //user
