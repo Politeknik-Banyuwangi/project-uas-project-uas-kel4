@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:projectuas/pages/peofile.dart';
 
 void main() => runApp(MyApp());
 
@@ -123,7 +122,7 @@ class MyApp extends StatelessWidget {
               ),
             )
           ],
-        );,
+        ),
     );
   }
 }
