@@ -51,6 +51,9 @@ class ProfilePages extends StatelessWidget {
                   )),
             ],
           ),
+          SizedBox(
+            height: 10,
+          ),
           Center(
             child: Text('Biodata Mahasiswa', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.black)),
           ),
