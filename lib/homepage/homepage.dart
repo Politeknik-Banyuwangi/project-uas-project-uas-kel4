@@ -68,7 +68,7 @@ class _Bills extends State<Bills> {
                   return Card(
                     child: Container(
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(30.0),
+                        borderRadius: BorderRadius.circular(15.0),
                       ),
                       color: Colors.purple[100],
                       child: ListTile(
