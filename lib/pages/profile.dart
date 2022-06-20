@@ -63,7 +63,7 @@ class ProfilePages extends StatelessWidget {
               child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
-                    color: Colors.purple[200],
+                    color: Color(0xFFB2DEF7),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
