@@ -51,7 +51,7 @@ class _Bills extends State<Bills> {
             children: [
               Text(
                 'Mata Pelajaran',
-                style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 25.0, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
               ),
             ],
           ),
