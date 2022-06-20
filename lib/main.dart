@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color(0xffFFFFFF),
         appBar: AppBar(
-          title: Text('Profile'),
+          title: Text('Profile', style: TextStyle(color: Colors.black)),
           backgroundColor: Color(0xffFFFFFF),
           elevation: 0,
           actions: <Widget>[],
