@@ -100,16 +100,16 @@ class _Bills extends State<Bills> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.login),
-            label: ('Login'),
+            icon: Icon(Icons.account_circle),
+            label: ('Profil'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: ('Dasboard'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.account_circle),
-            label: ('Profil'),
+            icon: Icon(Icons.login),
+            label: ('Log out'),
           ),
         ],
         currentIndex: _selectedNavbar,
