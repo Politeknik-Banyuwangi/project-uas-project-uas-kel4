@@ -114,7 +114,7 @@ class _Bills extends State<Bills> {
         ],
         currentIndex: _selectedNavbar,
         selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.white,
+        unselectedItemColor: Colors.grey,
         showUnselectedLabels: true,
         onTap: _changeSelectedNavBar,
       ),
