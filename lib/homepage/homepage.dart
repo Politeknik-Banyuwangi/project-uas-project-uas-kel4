@@ -67,7 +67,7 @@ class _Bills extends State<Bills> {
                 itemBuilder: (BuildContext context, int index) {
                   return Card(
                     child: Container(
-                      color: Colors.purple,
+                      color: Colors.purple[100],
                       child: ListTile(
                         title: Text(
                           '${_titleBills[index]}',
