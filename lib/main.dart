@@ -62,8 +62,10 @@ class MyApp extends StatelessWidget {
               width: double.infinity,
               child: Card(
                 child: Container(
-                    color: Colors.purple[200],
-                    decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0))),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.only(topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0)),
+                      color: Colors.purple[200],
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
