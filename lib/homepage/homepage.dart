@@ -72,7 +72,7 @@ class _Bills extends State<Bills> {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15.0),
-                        color: Colors.blue[200],
+                        color: Colors.blue[100],
                       ),
                       child: ListTile(
                         title: Text(
