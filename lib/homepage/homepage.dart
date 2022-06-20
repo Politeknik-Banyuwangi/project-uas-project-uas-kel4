@@ -43,8 +43,7 @@ class _Bills extends State<Bills> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      body: ListView(
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -61,7 +60,7 @@ class _Bills extends State<Bills> {
           // )
           //
           Container(
-              height: 510,
+              height: 600,
               child: ListView.builder(
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
