@@ -54,6 +54,10 @@ class MyApp extends StatelessWidget {
                     )),
               ],
             ),
+            Padding(
+              padding: EdgeInsets.only(top: 30, right: 20, left: 70, bottom: 15),
+              child: Text('Biodata Mahasiswa', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.black)),
+            ),
             //biodata
             Container(
               padding: EdgeInsets.fromLTRB(5.0, 50.0, 5.0, 4.0),
@@ -71,10 +75,6 @@ class MyApp extends StatelessWidget {
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Padding(
-                          padding: EdgeInsets.only(top: 30, right: 20, left: 70, bottom: 15),
-                          child: Text('Biodata Mahasiswa', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.black)),
-                        ),
                         Padding(
                           padding: const EdgeInsets.all(15.0),
                           child: Row(children: <Widget>[
