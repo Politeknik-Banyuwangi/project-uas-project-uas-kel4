@@ -82,7 +82,7 @@ class _Bills extends State<Bills> {
                         ),
                         subtitle: Text(
                           '${_subtitleGuru[index]}',
-                          style: TextStyle(color: Colors.black, fontSize: 20.0),
+                          style: TextStyle(color: Colors.black, fontSize: 15.0),
                           overflow: TextOverflow.ellipsis,
                         ),
                         leading: Container(
