@@ -77,7 +77,7 @@ class _Bills extends State<Bills> {
                       child: ListTile(
                         title: Text(
                           '${_titleBills[index]}',
-                          style: TextStyle(color: Colors.black, fontSize: 24.0),
+                          style: TextStyle(color: Colors.black, fontSize: 20.0),
                           overflow: TextOverflow.ellipsis,
                         ),
                         subtitle: Text(
