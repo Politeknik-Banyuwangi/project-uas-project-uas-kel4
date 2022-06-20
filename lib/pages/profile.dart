@@ -60,7 +60,7 @@ class ProfilePages extends StatelessWidget {
           //biodata
           Container(
             padding: EdgeInsets.fromLTRB(4.0, 0, 4.0, 3.0),
-            margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 4.0),
+            margin: EdgeInsets.fromLTRB(5.0, 20.0, 5.0, 4.0),
             height: 400,
             width: double.infinity,
             child: Card(
