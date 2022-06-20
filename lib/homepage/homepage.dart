@@ -26,11 +26,11 @@ class _Bills extends State<Bills> {
     'Kewirausahaan Teknologi',
   ];
   var _subtitleGuru = [
-    'Farisqi',
-    'Ruth Emma',
-    'Devit',
-    'Sepyan',
-    'Vivien Wardhany',
+    'Farizqi Panduardi',
+    'Ruth Ema Febrita',
+    'Devit Suwardiyanto',
+    'Sepyan Purnama Kristanto',
+    'Vivien Arief Wardhany',
     'Indira Nuansa',
   ];
 
