@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/peofile.dart';
+import 'package:projectuas/pages/peofile.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProfilePages();
+      home: ProfilePages(),
     );
   }
 }
