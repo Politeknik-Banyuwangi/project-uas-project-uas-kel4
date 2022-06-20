@@ -41,11 +41,6 @@ class MyApp extends StatelessWidget {
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
-                              Icon(
-                                Icons.location_on,
-                                color: Colors.black,
-                                size: 17,
-                              ),
                               Padding(
                                   padding: const EdgeInsets.only(left: 4.0),
                                   child: Text(
