@@ -98,6 +98,7 @@ class _Bills extends State<Bills> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.red.shade700,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
