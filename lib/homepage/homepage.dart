@@ -66,6 +66,9 @@ class _Bills extends State<Bills> {
                 itemCount: 6,
                 itemBuilder: (BuildContext context, int index) {
                   return Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15.0),
