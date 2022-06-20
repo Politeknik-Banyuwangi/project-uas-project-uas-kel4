@@ -18,20 +18,20 @@ class _Bills extends State<Bills> {
   ];
 
   var _titleBills = [
-    'Biologi',
-    'Kimia',
-    'Matematika',
-    'Bahasa Inggris',
-    'Bahasa Indonesia',
-    'Fisika',
+    'Administrasi Server',
+    'Grafika Komputer',
+    'Pemrograman Web',
+    'Pengembangan Aplikasi Mobile',
+    'Jaringan Komputer Lanjut',
+    'Kewirausahaan Teknologi',
   ];
   var _subtitleGuru = [
-    'Adi Setya Purwanto',
-    'Nur Shinta Ramadanti',
-    'Eko Saputra',
-    'Vinzen Qiy',
-    'Cintra Puspita',
-    'Azizah Saputri',
+    'Farisqi',
+    'Ruth Emma',
+    'Devit',
+    'Sepyan',
+    'Vivien Wardhany',
+    'Indira Nuansa',
   ];
 
   void _changeSelectedNavBar(int index) {
