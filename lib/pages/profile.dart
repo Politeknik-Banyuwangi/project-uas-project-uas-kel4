@@ -51,8 +51,7 @@ class ProfilePages extends StatelessWidget {
                   )),
             ],
           ),
-          Padding(
-            padding: EdgeInsets.only(top: 30, right: 20, left: 30, bottom: 0),
+          Center(
             child: Text('Biodata Mahasiswa', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.black)),
           ),
           //biodata
