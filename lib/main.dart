@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                             children: <Widget>[
                               Icon(
                                 Icons.location_on,
-                                color: Colors.white70,
+                                color: Colors.black,
                                 size: 17,
                               ),
                               Padding(
