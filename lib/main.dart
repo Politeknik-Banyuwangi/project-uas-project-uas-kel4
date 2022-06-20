@@ -123,6 +123,7 @@ class MyApp extends StatelessWidget {
             )
           ],
         ),
+      ),
     );
   }
 }
