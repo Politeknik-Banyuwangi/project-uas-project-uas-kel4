@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projectuas/pages/peofile.dart';
+import 'package:project_uas/pages/peofile.dart';
 
 void main() => runApp(MyApp());
 
