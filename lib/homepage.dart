@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
 
     final String? _token = prefs.getString('_token');
     final response = await http.post(
-      Uri.parse('http://192.168.1.1:8000/api/v1/presences/store'),
+      Uri.parse('http://192.168.100.83:8000/api/v1/presences/store'),
       headers: {
         'Content-Type': 'application/json',
         'X-Requested-With': 'XMLHttpRequest',

@@ -8,7 +8,7 @@ Future<List<HistoryRequest>> fetchHistoryData() async {
 
   final String? _token = _prefs.getString('_token');
   final response = await http.get(
-    Uri.parse('http://192.168.1.1:8000/api/v1/presences/get-data'),
+    Uri.parse('http://192.168.100.83:8000/api/v1/presences/get-data'),
     headers: {
       'Content-Type': 'application/json',
       'X-Requested-With': 'XMLHttpRequest',

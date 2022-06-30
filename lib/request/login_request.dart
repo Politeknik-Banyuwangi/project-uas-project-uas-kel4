@@ -28,7 +28,7 @@ Future loginRequest(BuildContext context, String username, String password) asyn
   );
 
   final response = await http.post(
-    Uri.parse('http://192.168.1.1:8000/api/v1/auth/login'),
+    Uri.parse('http://192.168.100.83:8000/api/v1/auth/login'),
     headers: {
       'Content-Type': 'application/json',
       'X-Requested-With': 'XMLHttpRequest',
