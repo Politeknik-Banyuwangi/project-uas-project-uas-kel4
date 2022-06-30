@@ -23,8 +23,7 @@ class _HomePageState extends State<HomePage> {
     String qrCodeScanRes;
 
     try {
-      qrCodeScanRes = await FlutterBarcodeScanner.scanBarcode(
-          '#f0f0f0', 'Batal', true, ScanMode.QR);
+      qrCodeScanRes = await FlutterBarcodeScanner.scanBarcode('#f0f0f0', 'Batal', true, ScanMode.QR);
       print(qrCodeScanRes);
     } on PlatformException {
       qrCodeScanRes = "Failed to get platform version.";
@@ -54,7 +53,7 @@ class _HomePageState extends State<HomePage> {
 
     final String? _token = prefs.getString('_token');
     final response = await http.post(
-      Uri.parse('http://192.168.100.83:8000/api/v1/presences/store'),
+      Uri.parse('http://192.168.1.1:8000/api/v1/presences/store'),
       headers: {
         'Content-Type': 'application/json',
         'X-Requested-With': 'XMLHttpRequest',
@@ -95,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                     RaisedButton(
                         onPressed: () {
                           Navigator.pop(context);
-                          if(json['data'] != null){
+                          if (json['data'] != null) {
                             Navigator.push(context, MaterialPageRoute(builder: (context) => DetailSuccess(data: json['data'])));
                           }
                           setState(() {
@@ -252,8 +251,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Container(
-            padding:
-                const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
+            padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
             alignment: Alignment.centerLeft,
             child: const Text(
               'Riwayat Absensi',
