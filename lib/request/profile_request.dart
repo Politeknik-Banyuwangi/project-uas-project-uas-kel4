@@ -8,7 +8,7 @@ Future<ProfileRequest> fetchProfileData() async {
 
   final String? _token = _prefs.getString('_token');
   final response = await http.get(
-    Uri.parse('http://192.168.100.83:8000/api/v1/get-profile'),
+    Uri.parse('http://192.168.1.1:8000/api/v1/get-profile'),
     headers: {
       'Content-Type': 'application/json',
       'X-Requested-With': 'XMLHttpRequest',
@@ -25,16 +25,7 @@ Future<ProfileRequest> fetchProfileData() async {
 }
 
 class ProfileRequest {
-  final String id,
-      name,
-      shiftId,
-      nim,
-      prodi,
-      birthPlace,
-      birthDate,
-      phone,
-      address,
-      email;
+  final String id, name, shiftId, nim, prodi, birthPlace, birthDate, phone, address, email;
 
   ProfileRequest({
     required this.id,
