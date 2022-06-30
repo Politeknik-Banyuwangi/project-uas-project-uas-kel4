@@ -3,17 +3,14 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-Future loginRequest(
-    BuildContext context, String username, String password) async {
+Future loginRequest(BuildContext context, String username, String password) async {
   final SharedPreferences _prefs = await SharedPreferences.getInstance();
 
   showDialog(
     context: context,
     builder: (BuildContext context) {
       return AlertDialog(
-        title: const Text('Please wait...',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+        title: const Text('Please wait...', textAlign: TextAlign.center, style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: const [

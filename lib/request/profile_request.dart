@@ -25,16 +25,7 @@ Future<ProfileRequest> fetchProfileData() async {
 }
 
 class ProfileRequest {
-  final String id,
-      name,
-      shiftId,
-      nim,
-      prodi,
-      birthPlace,
-      birthDate,
-      phone,
-      address,
-      email;
+  final String id, name, shiftId, nim, prodi, birthPlace, birthDate, phone, address, email;
 
   ProfileRequest({
     required this.id,

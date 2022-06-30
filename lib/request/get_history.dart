@@ -19,9 +19,7 @@ Future<List<HistoryRequest>> fetchHistoryData() async {
   if (response.statusCode == 200) {
     final parsed = jsonDecode(response.body)['data'].cast<Map<String, dynamic>>();
 
-    return parsed
-        .map<HistoryRequest>((json) => HistoryRequest.fromJson(json))
-        .toList();
+    return parsed.map<HistoryRequest>((json) => HistoryRequest.fromJson(json)).toList();
   } else {
     throw Exception('Failed to load data');
   }
