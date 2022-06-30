@@ -1,0 +1,18 @@
+Adelina Febrianti Setya N / 362055401103
+Loginpage
+Login_request
+Get_history
+
+Maritta Dewi Arista / 362055401099
+Profile 
+Profile_request
+
+Siti Nur Kholifatul putri / 362055401109
+Homepage
+Detail_success
+Generated_plugin
+
+Safira Tsani Amelya Putri / 362055401120
+Desain 
+Homelist
+Routes
